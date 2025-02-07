@@ -16,6 +16,7 @@ const GameBoard = () => {
 
   const newGame = () => {
     setScore(0)
+    setGamestatus('')
     const random = colours[Math.floor(Math.random() * colours.length)]
     setCurrent(random)
   }
