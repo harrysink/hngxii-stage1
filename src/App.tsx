@@ -15,7 +15,7 @@ const GameBoard = () => {
   const [gamestatus, setGamestatus] = useState('')
 
   const newGame = () => {
-    setGamestatus('')
+    setScore(0)
     const random = colours[Math.floor(Math.random() * colours.length)]
     setCurrent(random)
   }
